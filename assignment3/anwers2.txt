@@ -1,0 +1,34 @@
+????? ??????? (Browser Tab): <title>
+??????? ??????? ???? ??????: <h1>
+
+
+
+
+
+1. Home Link:
+The Home link worked successfully.
+
+2. External Educational Link:
+https://www.w3schools.com/
+
+The link opened in a new tab, and the original page remained open.
+
+
+
+* السطر المصحح:
+<video src="../media/intro.mp4" controls preload="metadata"></video>
+
+* إجابات الأسئلة القصيرة:
+1. 
+- يبدأ حساب المسار النسبي من موقع الملف الحالي الذي يُكتب فيه الكود وهو مجلد (pages) حيث يوجد ملف courses.html.
+- وبما أن مجلد (media) يقع خارج مجلد (pages) وبجانب index.html، فإن كتابة "media/intro.mp4" ستجعل المتصفح يبحث عن مجلد media داخل pages ولن يجده. لذلك يجب استخدام (../) للرجوع خطوة واحدة للخلف إلى المجلد الرئيسي للمشروع ثم الدخول إلى مجلد media ليصبح المسار: "../media/intro.mp4".
+
+2. 
+- خاصية (muted) في HTML هي خاصية منطقية (Boolean Attribute)؛ مجرد وجودها داخل الوسم يجعل الفيديو صامتاً  حتى لو تم إسناد القيمة "false" لها.
+- التعديل: قمت بحذف خاصية muted="false" بالكامل من الوسم لكي يبدأ الصوت مسموعاً بشكل طبيعي عند ضغط زر التشغيل.
+
+3. 
+- القيمة المناسبة هي: preload="metadata".
+- السبب: هذه القيمة تطلب من المتصفح تحميل المعلومات الأساسية للملف فقط (مثل مدة الفيديو وأبعاده) قبل التشغيل دون تحميل الفيديو بالكامل لتوفير البيانات.
+
+
