@@ -1,0 +1,6 @@
+#course-title { color: purple; }
+.title { color: green; }
+h1 { color: navy; }
+.course-card>p { color: teal; }
+.button:hover { color : #b12b2b;  }
+.button:focus-visible { outline-color: #9fb12b;  }
