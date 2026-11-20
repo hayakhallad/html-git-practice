@@ -1,0 +1,8 @@
+index.html:  styles.css
+courses.html:  ../styles.css
+ 
+ الذي ينسق حالةالكورس المكتمل : .card[data-status="open"] .status
+
+
+يطابق هذا المحدِّد عنصر <span class="status"> الموجود داخل عنصر يحمل الكلاس card، 
+بشرط أن يمتلك عنصر البطاقة هذا الخاصية data-status بقيمة "full" 
