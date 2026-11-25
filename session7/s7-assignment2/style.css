@@ -1,0 +1,77 @@
+body{
+    background-color: #cfc7f5;
+
+}
+.card{
+    width: 35%;
+    margin:  auto;
+    border: 2px solid #cac1f2;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: 50px;
+background-color: #ffffff;
+text-align: center;
+ box-shadow: 0px 0px 10px #6D28D9;
+}
+.head{
+      width: 90px;
+   text-align: center; 
+   margin-inline: auto;
+    background-color: #dad5f1;
+    border-radius: 12px;
+    border: 5px solid #dad5f1;
+   color: #6D28D9;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.title{
+    font-size: 30px;
+    margin-inline: auto;
+    font-weight: 700;
+    color: #1F2937;
+    margin-top: 20px;
+font-weight: bold;
+margin-bottom: 0px;
+}
+.price{
+    margin-inline: auto;
+    color: #6D28D9;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top:10px;
+        font-weight: 700;
+margin-bottom: 0px;
+}
+.note{
+font-size: 20px;
+    margin-top:5px;
+    color: #6B7280;
+}
+hr{
+    color: rgba(109,40, 217, 0.12);
+    margin: 25px;
+    margin-bottom: 0px;
+}
+.sen{
+    margin-inline:auto;
+    color: #1F2937;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.button{
+    width: 80%;
+    display: inline-block;
+    margin-inline:auto;
+    background-color: #6D28D9;
+    border: #6D28D9;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
