@@ -1,0 +1,48 @@
+body{
+  background-color:   #EFF6FF;
+
+}
+.title{
+    color: #2563EB;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.box{
+    background-color: #E2E8F0;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    width:   70%;
+    height:350px ;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center ;
+    align-items: center;
+    
+    
+}
+.card{
+    background-color: #FFFFFF;
+    border: 2px solid #CBD5E1;
+    border-radius: 10px;
+    width: 25%;
+    height: 200px;
+}
+.num{
+    text-align: center;
+     color: #2563EB;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.text{
+    text-align: center;
+font-weight: bold;
+color: #18342B;
+margin-top: 20px;
+font-size: 35px;
+}
