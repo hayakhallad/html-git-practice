@@ -1,0 +1,108 @@
+body{
+background-color: #F5F3FF;   
+}
+.box{
+   
+   width: 55%;
+    margin: auto;
+    height: 350px;
+    background-color: #FFFFFF;
+    border: 2px solid #CBD5E1 ;
+    border-radius: 10px;
+    margin-top: 150px;
+    display: flex;
+}
+img{
+    width: 35%;
+    height: 70%;
+    margin-top: 50px;
+    margin-right: 20px;
+    border: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-right:35px ;
+}
+.name{
+    margin-top: 45px;
+    font-size: 50px;
+    color: #183B42;
+    margin-bottom: 0px;
+}
+.note{
+font-size:30px ;
+font-weight: bold;
+color:#9D28D6;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+.note2{
+font-size:25px ;
+font-weight: bold;
+color:#64748B;
+margin-top: 15px;
+line-height: 28px;
+margin-bottom: 0px;
+}
+.courses{
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.course{
+      width: 70px;
+   text-align: center; 
+    background-color: #dad5f1;
+    border-radius: 7px;
+    border: 5px solid #dad5f1;
+   color: #6D28D9;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+
+
+.button1{
+    display: inline-block;
+    background-color: #9D28D6;
+    border: 2px solid #9D28D6;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+      padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 120px;
+    text-align: center;
+margin-bottom: 25px;
+
+}
+.button2{
+    display: inline-block;
+    background-color: #ffffff;
+    border:2px solid #9D28D6;
+    border-radius: 10px;
+    color: #9D28D6;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+margin-bottom: 25px;
+width: 120px;
+}
